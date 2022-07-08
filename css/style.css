@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap);
+html {
+    color: #434343;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: sans-serif, 'Oswald';
+    background-color: #DAD9D5;
+}
+
+::-moz-selection {
+    background: #7ab5c1;
+    text-shadow: none;
+}
+
+::selection {
+    background: #7ab5c1;
+    text-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+.logo {
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sponsor {
+    flex: auto;
+    width: 275px;
+    margin: 20px;
+}
+
+p {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px lightslategray;
+}
+
+h1 {
+    font-family: 'Diplomata SC', cursive;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+/* ========================================================================== */
+
+
+/* PARALLAX */
+
+
+/* ========================================================================== */
+
+.parallax,
+.parallax2 {
+    height: 575px;
+    background-attachment: fixed;
+    background-position: cover;
+    background-size: 100% auto;
+}
+
+.parallax2 {
+    background-image: src=("images\PXL_20210722_104244068.jpg");
+    min-height: 800px;
+    background-repeat: repeat-y;
+    height: 1500px
+}
+
+.caption {
+    left: 0;
+    top: 50%;
+    /* width: 100%; */
+    text-align: center;
+    color: #22211E;
+    background-color: #7ab5c1;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin: 10px 10px
+}
+
+.caption span.border {
+    color: #666666;
+    padding: 18px;
+}
+
+.label {
+    font-family: 'Diplomata SC', cursive;
+}
+
+.content {
+    color: #434343;
+    background-color: #DAD9D5;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+
